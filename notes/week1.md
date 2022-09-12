@@ -160,3 +160,7 @@
 	git branch -M main
 	git remote add orgin https://github.com/hhtdgit/JAVAEE.git
 	git push -u origin main
+	
+	如遇代理问题：
+	git config --global https.proxy
+	git config --global --unset https.proxy
