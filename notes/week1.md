@@ -1,127 +1,127 @@
-µÚÒ»ÖÜ±Ê¼Ç
+ç¬¬ä¸€å‘¨ç¬”è®°
 
-ÓÉÓÚÒÑ¾­Ö®Ç°°²×°ºÃÁËIDEA£¬ËùÒÔ±Ê¼Ç·ÖÎªÈı²¿·Ö£º
-1.ÔËĞĞµÚÒ»½Ú¿Î¶ÔÓ¦µÄÊ¾Àı´úÂë
-2.Ñ§Ï°JAVA8ĞÂÌØĞÔ£¬ÏÈÀí½â½ÏÎª¼òµ¥µÄ¼¸¸öÌØĞÔ
-3.´´½¨github²Ö¿âºÍ±¾µØ²Ö¿â
+ç”±äºå·²ç»ä¹‹å‰å®‰è£…å¥½äº†IDEAï¼Œæ‰€ä»¥ç¬”è®°åˆ†ä¸ºä¸‰éƒ¨åˆ†ï¼š
+1.è¿è¡Œç¬¬ä¸€èŠ‚è¯¾å¯¹åº”çš„ç¤ºä¾‹ä»£ç 
+2.å­¦ä¹ JAVA8æ–°ç‰¹æ€§ï¼Œå…ˆç†è§£è¾ƒä¸ºç®€å•çš„å‡ ä¸ªç‰¹æ€§
+3.åˆ›å»ºgithubä»“åº“å’Œæœ¬åœ°ä»“åº“
 
-Ò»¡¢Java-basics-codes
+ä¸€ã€Java-basics-codes
 1.DataTypeDemo
-	(1)Ö±½Ó¶¨Òå±äÁ¿£º
+	(1)ç›´æ¥å®šä¹‰å˜é‡ï¼š
 		float myFloatNum = 5.99f;
-	(2)Ã¿¸ö»ù±¾ÀàĞÍ¶¼ÓĞ¶ÔÓ¦µÄ·â×°Àà£º
+	(2)æ¯ä¸ªåŸºæœ¬ç±»å‹éƒ½æœ‰å¯¹åº”çš„å°è£…ç±»ï¼š
 		Float myFloatNum2= 5.99f;
-	(3)ÀàĞÍ×ª»»£º
-		×Ô¶¯×ª»»£ºint myInt = 5;	double myDouble = myInt;
-		Ç¿ÖÆ×ª»»£ºdouble myDouble = 12.2d;		int myInt = (int) myDouble;
-	(4)×Ö·û´®£º
+	(3)ç±»å‹è½¬æ¢ï¼š
+		è‡ªåŠ¨è½¬æ¢ï¼šint myInt = 5;	double myDouble = myInt;
+		å¼ºåˆ¶è½¬æ¢ï¼šdouble myDouble = 12.2d;		int myInt = (int) myDouble;
+	(4)å­—ç¬¦ä¸²ï¼š
 		String greeting = "Hello world";
-		×Ö·û´®Á¬½Ó£ºSystem.out.println("myInt="+ myInt);
+		å­—ç¬¦ä¸²è¿æ¥ï¼šSystem.out.println("myInt="+ myInt);
 		
 2.ArrayDemo
-	(1)¶¨ÒåÊı×é£º
+	(1)å®šä¹‰æ•°ç»„ï¼š
 		String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-	(2)Êı×é³¤¶È£º
+	(2)æ•°ç»„é•¿åº¦ï¼š
 		System.out.println(cars.length);
-	(3)for-eachÑ­»·
+	(3)for-eachå¾ªç¯
 		for (String car : cars) {
             System.out.println(car);
         }
-	(4)¶şÎ¬Êı×é£º
+	(4)äºŒç»´æ•°ç»„ï¼š
 		int[][] myNumbers = { {1, 2, 3, 4}, {5, 6,7} };
 		
 3.ooDemo
-	(1)³éÏóÀà£ºÌáÈ¡×ÓÀàµÄ¹²Í¬ÌØÕ÷
+	(1)æŠ½è±¡ç±»ï¼šæå–å­ç±»çš„å…±åŒç‰¹å¾
 		public abstract class Animal {
 			String name;
 
 			public Animal() {
 				name = "Animal";
 			}
-			public abstract void eat();		//×ÓÀàÒ»¶¨ÒªÊµÏÖ¸¸ÀàµÄ³éÏó·½·¨
+			public abstract void eat();		//å­ç±»ä¸€å®šè¦å®ç°çˆ¶ç±»çš„æŠ½è±¡æ–¹æ³•
 
-			public void sleep(){			//×ÓÀà¿ÉÒÔÖØĞ´¸¸ÀàÖĞµÄ·Ç³éÏó·½·¨
-				System.out.println(name+"ÕıÔÚË¯");
+			public void sleep(){			//å­ç±»å¯ä»¥é‡å†™çˆ¶ç±»ä¸­çš„éæŠ½è±¡æ–¹æ³•
+				System.out.println(name+"æ­£åœ¨ç¡");
 			}
 		}
-	(2)½Ó¿ÚÀà£ºÓÃÀ´±íÊ¾¹«¹²ĞĞÎª¡£javaÃ»ÓĞ¶à¼Ì³Ğ£¬¿ÉÒÔÍ¨¹ı½Ó¿ÚÊµÏÖ¡£
+	(2)æ¥å£ç±»ï¼šç”¨æ¥è¡¨ç¤ºå…¬å…±è¡Œä¸ºã€‚javaæ²¡æœ‰å¤šç»§æ‰¿ï¼Œå¯ä»¥é€šè¿‡æ¥å£å®ç°ã€‚
 		public interface Flyable {
 			void fly();
 		}
-	(3)¶àÌ¬£º±àÒë¿´×ó±ß£¬ÊµÏÖ¿´ÓÒ±ß
+	(3)å¤šæ€ï¼šç¼–è¯‘çœ‹å·¦è¾¹ï¼Œå®ç°çœ‹å³è¾¹
 		Animal[] animals = new Animal[]{
              new Animal(),new Bird(),new Mouse()
         };
         for(Animal animal:animals){
-            animal.eat(); //¸ù¾İ²»Í¬µÄ¶ÔÏóÀàĞÍ£¬µ÷ÓÃ²»Í¬µÄeat·½·¨
+            animal.eat(); //æ ¹æ®ä¸åŒçš„å¯¹è±¡ç±»å‹ï¼Œè°ƒç”¨ä¸åŒçš„eatæ–¹æ³•
         }
-	(4)»ùÓÚ½Ó¿ÚµÄ¶àÌ¬£º
+	(4)åŸºäºæ¥å£çš„å¤šæ€ï¼š
 		Flyable[] flyables = new Flyable[]{
-                new Bird(),new AirPlane()	//±ØĞëÊµÏÖFlyable½Ó¿Ú£¬ÊµÏÖfly·½·¨
+                new Bird(),new AirPlane()	//å¿…é¡»å®ç°Flyableæ¥å£ï¼Œå®ç°flyæ–¹æ³•
         };
         for(Flyable flyable:flyables){
-            flyable.fly(); //¸ù¾İ²»Í¬µÄ¶ÔÏóÀàĞÍ£¬µ÷ÓÃ²»Í¬µÄfly·½·¨
+            flyable.fly(); //æ ¹æ®ä¸åŒçš„å¯¹è±¡ç±»å‹ï¼Œè°ƒç”¨ä¸åŒçš„flyæ–¹æ³•
         }
-	(5)½Ó¿Ú×÷Îª²ÎÊı£º
+	(5)æ¥å£ä½œä¸ºå‚æ•°ï¼š
 		public static void startToFly(Flyable flyable){
 			flyable.fly();
 		}
 		for(Flyable flyable:flyables){
-            startToFly(flyable); //µ÷ÓÃ·½·¨£¬´«Èë½Ó¿ÚÀàĞÍ±äÁ¿
+            startToFly(flyable); //è°ƒç”¨æ–¹æ³•ï¼Œä¼ å…¥æ¥å£ç±»å‹å˜é‡
         }
 
 4.ListDemo
-	(1)¶¨Òå£º
+	(1)å®šä¹‰ï¼š
 		ArrayList<String> list=new ArrayList<>();
-	(2)²åÈë£º
+	(2)æ’å…¥ï¼š
 		list.add("World");
         list.add(0,"HAHAHAHA");
-	(3)È¡ÖµÓë²éÕÒ£º
+	(3)å–å€¼ä¸æŸ¥æ‰¾ï¼š
 		System.out.println(list.size());
         System.out.println(list.get(0));
-        //ÅĞ¶ÏÊÇ·ñ°üº¬Ä³¸öÔªËØ,½«Öğ¸öÔªËØµ÷ÓÃEquals·½·¨¶Ô±È£¬·µ»ØBoolean
+        //åˆ¤æ–­æ˜¯å¦åŒ…å«æŸä¸ªå…ƒç´ ,å°†é€ä¸ªå…ƒç´ è°ƒç”¨Equalsæ–¹æ³•å¯¹æ¯”ï¼Œè¿”å›Boolean
         System.out.println(list.contains("World"));
-	(4)±éÀú£º
-		//°´ÏÂ±ê
+	(4)éå†ï¼š
+		//æŒ‰ä¸‹æ ‡
 		for(int i=0;i<list.size();i++){
             System.out.println(list.get(i));
         }
-		//for-eachÑ­»·
+		//for-eachå¾ªç¯
 		for (String str : list) {
             System.out.println(str);
         }
 		
-		//Ê¹ÓÃstreamºÍlambda±í´ïÊ½½øĞĞ±éÀú
+		//ä½¿ç”¨streamå’Œlambdaè¡¨è¾¾å¼è¿›è¡Œéå†
         list.stream().forEach(item-> System.out.println(item));
-	(5)ÅÅĞò£º
-		//Ê¹ÓÃlambda×÷Îª±È½ÏÆ÷£¬½µĞò
+	(5)æ’åºï¼š
+		//ä½¿ç”¨lambdaä½œä¸ºæ¯”è¾ƒå™¨ï¼Œé™åº
 		Collections.sort(list,(i1,i2)-> i2.compareTo(i1));
 		
 5.MapDemo
-	(1)¶¨Òå£º
+	(1)å®šä¹‰ï¼š
 		Map<String, String> map = new HashMap<String, String>();
-	(2)²åÈë£º
+	(2)æ’å…¥ï¼š
 		map.put("1", "google");
-	(3)±éÀú£º
-		//³£ÓÃ£º¶ş´ÎÈ¡Öµ£¬ÏÈ»ñÈ¡keyÖµ£¬ÔÙ»ñÈ¡key¶ÔÓ¦Öµ
+	(3)éå†ï¼š
+		//å¸¸ç”¨ï¼šäºŒæ¬¡å–å€¼ï¼Œå…ˆè·å–keyå€¼ï¼Œå†è·å–keyå¯¹åº”å€¼
 		for (String key : map.keySet()) {
             System.out.println("key= "+ key + " and value= " + map.get(key));
         }
 		
-		//ÈİÁ¿´óÊ±ÓÈÆäÍÆ¼ö£ºÓÃentry»ñÈ¡Ã¿Ò»Õû¸ö¼üÖµ¶Ô
+		//å®¹é‡å¤§æ—¶å°¤å…¶æ¨èï¼šç”¨entryè·å–æ¯ä¸€æ•´ä¸ªé”®å€¼å¯¹
         for (Map.Entry<String, String> entry : map.entrySet()) {
             System.out.println("key= " + entry.getKey() + " and value= " + entry.getValue());
         }
 		
-¶ş¡¢Java8ĞÂÌØĞÔÖ®¶ş
-1.Lambda ±í´ïÊ½£ºLambda ÔÊĞí°Ñº¯Êı×÷ÎªÒ»¸ö·½·¨µÄ²ÎÊı£¨º¯Êı×÷Îª²ÎÊı´«µİµ½·½·¨ÖĞ£©¡£
-	//±éÀúÊä³ö£ºeÎª²ÎÊı£¬ÀàĞÍÓÉ±àÒëÆ÷ÍÆÀíµÃµ½
+äºŒã€Java8æ–°ç‰¹æ€§ä¹‹äºŒ
+1.Lambda è¡¨è¾¾å¼ï¼šLambda å…è®¸æŠŠå‡½æ•°ä½œä¸ºä¸€ä¸ªæ–¹æ³•çš„å‚æ•°ï¼ˆå‡½æ•°ä½œä¸ºå‚æ•°ä¼ é€’åˆ°æ–¹æ³•ä¸­ï¼‰ã€‚
+	//éå†è¾“å‡ºï¼šeä¸ºå‚æ•°ï¼Œç±»å‹ç”±ç¼–è¯‘å™¨æ¨ç†å¾—åˆ°
 	Arrays.asList( "a", "b", "d" ).forEach( e -> System.out.println( e ) );
-	//ÅÅĞò£ºlist×÷Îª²ÎÊı²¢½ÓÊÕ·µ»ØÖµ£¬·µ»ØÖµÀàĞÍÓÉ±àÒëÆ÷ÍÆÀíµÃµ½
+	//æ’åºï¼šlistä½œä¸ºå‚æ•°å¹¶æ¥æ”¶è¿”å›å€¼ï¼Œè¿”å›å€¼ç±»å‹ç”±ç¼–è¯‘å™¨æ¨ç†å¾—åˆ°
 	Collections.sort(list,(i1,i2)-> i2.compareTo(i1));
 	
-2.·½·¨ÒıÓÃ£º·½·¨ÒıÓÃÊ¹µÃ¿ª·¢Õß¿ÉÒÔÖ±½ÓÒıÓÃÏÖ´æµÄ·½·¨¡¢JavaÀàµÄ¹¹Ôì·½·¨»òÕßÊµÀı¶ÔÏó¡£
-	//Ê¾ÀıÀà
+2.æ–¹æ³•å¼•ç”¨ï¼šæ–¹æ³•å¼•ç”¨ä½¿å¾—å¼€å‘è€…å¯ä»¥ç›´æ¥å¼•ç”¨ç°å­˜çš„æ–¹æ³•ã€Javaç±»çš„æ„é€ æ–¹æ³•æˆ–è€…å®ä¾‹å¯¹è±¡ã€‚
+	//ç¤ºä¾‹ç±»
 	public static class Car {
 		public static Car create( final Supplier< Car > supplier ) {
 			return supplier.get();
@@ -139,24 +139,24 @@
 			System.out.println( "Repaired " + this.toString() );
 		}
 	}
-	(1)¹¹Ôìº¯ÊıÒıÓÃ£º
+	(1)æ„é€ å‡½æ•°å¼•ç”¨ï¼š
 		List< Car > cars = Arrays.asList( Car :: new );
-	(2)¾²Ì¬·½·¨ÒıÓÃ£º
+	(2)é™æ€æ–¹æ³•å¼•ç”¨ï¼š
 		cars.forEach( Car::collide );
-	(3)³ÉÔ±·½·¨ÒıÓÃ£º
-		//²»½ÓÊÕ²ÎÊı
+	(3)æˆå‘˜æ–¹æ³•å¼•ç”¨ï¼š
+		//ä¸æ¥æ”¶å‚æ•°
 		cars.forEach( Car::repair );
-	(4)ÊµÀı¶ÔÏóµÄ·½·¨ÒıÓÃ£º
+	(4)å®ä¾‹å¯¹è±¡çš„æ–¹æ³•å¼•ç”¨ï¼š
 		final Car car = Car.create( Car::new );
-		//½ÓÊÕÒ»¸öCarÀàĞÍµÄ²ÎÊı
+		//æ¥æ”¶ä¸€ä¸ªCarç±»å‹çš„å‚æ•°
 		cars.forEach( car::follow );
 		
-Èı¡¢´´½¨github²Ö¿âºÍ±¾µØ²Ö¿â
-1.ÔÚgithubÉÏ´´½¨Ò»¸ö¹«¿ª²Ö¿â
-2.ÔÚ±¾µØĞÂ½¨ÎÄ¼ş¼Ğ£¬½øĞĞgit bash:
+ä¸‰ã€åˆ›å»ºgithubä»“åº“å’Œæœ¬åœ°ä»“åº“
+1.åœ¨githubä¸Šåˆ›å»ºä¸€ä¸ªå…¬å¼€ä»“åº“
+2.åœ¨æœ¬åœ°æ–°å»ºæ–‡ä»¶å¤¹ï¼Œè¿›è¡Œgit bash:
 	git init
 	git add .
-	git commit -m "µÚÒ»´ÎÌá½»"
+	git commit -m "ç¬¬ä¸€æ¬¡æäº¤"
 	git branch -M main
 	git remote add orgin https://github.com/hhtdgit/JAVAEE.git
 	git push -u origin main
